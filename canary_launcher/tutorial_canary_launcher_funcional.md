@@ -53,3 +53,6 @@ Após colocar o cliente para download no github, abra o arquivo launcher_config.
 - Atualize o launcher_config.json em seu FORK do launcher no github com sua nova versão do cliente, exemplo: `"clientVersion": "13.21.13831"`, e depois confirme a mudança em seu repositório.
 - Compacte o cliente em ZIP e atualize o download em `Release` no seu FORK do launcher no github.
 - Seu Canary-Launcher baixará automaticamente a nova versão na próxima execução do launcher pelo usuário.
+
+### Siga nosso canal no Youtube e deixe um GOSTEI se o vídeo-tutorial te ajudou em algo!
+- https://www.youtube.com/@OTDescomplica
