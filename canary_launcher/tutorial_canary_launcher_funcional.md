@@ -8,20 +8,20 @@
  
 ## Criando uma conta no GITHUB.COM e criando um FORK do repositório do código fonte do Canary-Launcher:
 - Crie uma conta em https://github.com
-- Crie um fork (garfo) do repositório do Canary-Launcher para o seu github em https://github.com/opentibiabr/canary-launcher/fork e edite o nome do repositório da forma que quiser.
+- Crie um FORK (garfo) do repositório do Canary-Launcher para o seu github em https://github.com/opentibiabr/canary-launcher/fork e edite o nome do FORK.
 
 ## Baixando e editando o código fonte do Canary-Launcher:
-O primeiro passo é baixar o código fonte do projeto do CANARY-LAUNCHER da OtservBR em seu repositório no github:
+O primeiro passo é baixar o código fonte do Canary-Launcher no repositório do github da opentibiabr:
 - :star: [canary-launcher](https://github.com/opentibiabr/canary-launcher/archive/refs/heads/main.zip)
 - Depois abra o arquivo `src/MainWindow.xaml.cs` e encontre `"https://raw.githubusercontent.com/opentibiabr/canary-launcher/main/launcher_config.json"` e
-substitua o `opentibiabr/canary-launcher` pelo nome do seu usuário no github/nome do repositório do seu launcher: por exemplo o meu `"https://raw.githubusercontent.com/holybaiak/tibiaclient13x/main/launcher_config.json"`.
+substitua o `opentibiabr/canary-launcher` pelo nome do seu usuário no github/nome do repositório do seu FORK: por exemplo o meu `"https://raw.githubusercontent.com/holybaiak/tibiaclient13x/main/launcher_config.json"`.
 - Em seguida, faça o mesmo procedimento da etapa acima em `src/SplashScreen.xaml.cs`.
 
 ## Compilando o programa em Windows com Visual Studio 2022 no modo 'Solution':
-:interrobang: O que seria ese modo Solution? Seria um projeto (no caso o programa do launcher) contido dentro de uma solução. Apesar do nome, uma solução não é uma "resposta". Ela é apenas um contêiner de um ou mais projetos relacionados, juntamente com informações de build, configurações de janela do Visual Studio e arquivos diversos que não estão associados a nenhum projeto específico.
+:interrobang: O que seria ese modo Solution? Seria um projeto (no caso o programa do launcher) contido dentro de uma solução. Apesar do nome, uma solução não é uma "resposta". Ela é apenas um contêiner de um ou mais projetos relacionados, juntamente com informações de build, configurações de janela do Visual Studio e arquivos diversos que não estão associados a nenhum projeto específico. Em suma, ele baixa tudo o que for necessário para a compilação automaticamente.
 
 ## Baixando e instalando o Visual Studio 2022:
-O Visual Studio 2022 é o programa que iremos usar para compilar o código fonte do launcher, basta baixar no link: 
+O Visual Studio 2022 é o programa que iremos usar para compilar o código fonte do launcher, basta baixar o programa no link: 
 - :star: [Visual Studio 2022 Community](https://visualstudio.microsoft.com/pt-br/thank-you-downloading-visual-studio/?sku=Community&rel=17)
 - Após o donwload, na tela inicial do Visual Studio, no produto Visual Studio Community 2022, clique no botão Instalar.
 - Na próxima tela, em 'Cargas de trabalho', selecione 'Desenvolvimento de desktop com .NET'.
@@ -53,6 +53,9 @@ Após colocar o cliente para download no github, abra o arquivo launcher_config.
 - Atualize o launcher_config.json em seu FORK do launcher no github com sua nova versão do cliente, exemplo: `"clientVersion": "13.21.13831"`, e depois confirme a mudança em seu repositório.
 - Compacte o cliente em ZIP e atualize o download em `Release` no seu FORK do launcher no github.
 - Seu Canary-Launcher baixará automaticamente a nova versão na próxima execução do launcher pelo usuário.
+
+## Créditos:
+- OpenTibiaBR
 
 ### Siga nosso canal no Youtube e deixe um GOSTEI se o vídeo-tutorial te ajudou em algo!
 - :heart: https://www.youtube.com/@OTDescomplica :heart:
