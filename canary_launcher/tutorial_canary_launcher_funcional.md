@@ -55,4 +55,4 @@ Após colocar o cliente para download no github, abra o arquivo launcher_config.
 - Seu Canary-Launcher baixará automaticamente a nova versão na próxima execução do launcher pelo usuário.
 
 ### Siga nosso canal no Youtube e deixe um GOSTEI se o vídeo-tutorial te ajudou em algo!
-- https://www.youtube.com/@OTDescomplica
+- :heart: https://www.youtube.com/@OTDescomplica :heart:
