@@ -33,4 +33,23 @@ Baixar no link:
 - Basta clicar em instalar.
 
 ## Compilando o Canary-Launcher:
-Open CanaryLauncherUpdate.csproj on Visual Studio 2022, select Release in the drop down menu then go to the menu Build > Build Solu
+- Abra o `CanaryLauncherUpdate.csproj` no Visual Studio 2022, e selecione `Release` no menu suspenso e vá para o menu `Build` > `Build Solution`
+
+## Configurando o download do seu Cliente no github:
+- Vá para a categoria `Releases` no canto direito do repositório github do seu launcher.
+- Crie uma versão e carregue o `zip` do cliente nos anexos.
+- :heavy_exclamation_mark: Lembre-se: o ZIP dos arquivos do seu cliente são zip como no exemplo abaixo: 
+
+![image](https://github.com/OT-descomplica/tutoriais/assets/6209529/92c89f39-fefb-497a-a562-62589f31cbb9)
+
+## Editando o launcher_config.json:
+Após colocar o cliente para download no github, abra o arquivo launcher_config.json em seu FORK do launcher no seu github e configure as opções que quiser, como no exemplo:
+- versão do cliente: `"clientVersion": "13.20.13560"`
+- versão do launcher: `"launcherVersion": "1.0"`
+- link do download do cliente no Release do seu github: `"newClientUrl": "https://github.com/opentibiabr/canary-launcher/releases/download/1.0.0/client-to-update.zip"`
+- nome do executável do seu cliente: `"clientExecutable": "client.exe"`
+
+## Como atualizar o cliente do launcher:
+- Atualize o launcher_config.json em seu FORK do launcher no github com sua nova versão do cliente, exemplo: `"clientVersion": "13.21.13831"`, e depois confirme a mudança em seu repositório.
+- Compacte o cliente em ZIP e atualize o download em `Release` no seu FORK do launcher no github.
+- Seu Canary-Launcher baixará automaticamente a nova versão na próxima execução do launcher pelo usuário.
