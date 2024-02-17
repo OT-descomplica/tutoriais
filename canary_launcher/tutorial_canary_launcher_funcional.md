@@ -35,7 +35,7 @@ Baixar no link:
 ## Compilando o Canary-Launcher:
 - Abra o `CanaryLauncherUpdate.csproj` no Visual Studio 2022, e selecione `Release` no menu suspenso e vá para o menu `Build` > `Build Solution`
 
-## Configurando o download do seu Cliente no github:
+## Configurando o download do seu Cliente no FORK do seu github:
 - Vá para a categoria `Releases` no canto direito do repositório github do seu launcher.
 - Crie uma versão e carregue o `zip` do cliente nos anexos.
 - :heavy_exclamation_mark: Lembre-se: o ZIP dos arquivos do seu cliente são zip como no exemplo abaixo: 
