@@ -24,7 +24,7 @@ substitua o `opentibiabr/canary-launcher` pelo nome do seu usuário no github/no
 O Visual Studio 2022 é o programa que iremos usar para compilar o código fonte do launcher, basta baixar o programa no link: 
 - :star: [Visual Studio 2022 Community](https://visualstudio.microsoft.com/pt-br/thank-you-downloading-visual-studio/?sku=Community&rel=17)
 - Após o donwload, na tela inicial do Visual Studio, no produto Visual Studio Community 2022, clique no botão Instalar.
-- Na próxima tela, em 'Cargas de trabalho', selecione 'Desenvolvimento de desktop com .NET'.
+- Na próxima tela, em 'Cargas de trabalho', selecione 'Desenvolvimento para desktop com .NET'.
 - Em seguida, em Pacotes de idiomas, selecione Inglês.
 
 ## Baixando e instalando o .NET 6.0:
